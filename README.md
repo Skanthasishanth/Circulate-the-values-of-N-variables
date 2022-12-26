@@ -18,20 +18,16 @@ Add coding to the input value
 ### Step 6: 
 Print the coding to get answer
 ## Program:
-
+```
 #Program to circulate N values.
-
 #Developed by: S KANTHA SISHANTH
-
 #RegisterNumber: 22007660
-
 def circulate():
-
     l=eval(input())
     n=int(input())
     l=l[n:]+l[:n]
     print("After circulating the values are:",l)
-
+```
 ## Output:
 !['output'](/Circulateimage.png)
 
